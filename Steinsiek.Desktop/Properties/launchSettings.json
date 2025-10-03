@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Steinsiek (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Steinsiek (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
