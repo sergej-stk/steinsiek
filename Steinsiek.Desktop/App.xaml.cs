@@ -7,6 +7,9 @@ public partial class App : Application
 {
     private Window? _window;
 
+    public static new App Current => (App)Application.Current;
+    public Window? Window => _window;
+
     public App()
     {
         InitializeServices();
